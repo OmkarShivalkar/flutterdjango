@@ -7,3 +7,4 @@ from rest_framework import serializers, viewsets
 class Employee(viewsets.ModelViewSet):
     queryset = Employee.objects.all()
     serializer_class = EmployeeSerializer
+    print("sumit")
